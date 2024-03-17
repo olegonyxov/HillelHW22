@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <div class="mainDiv">
+        <form name="userForm">
+            <p>
+            <input type="text" name="firstName" placeholder="First name " />
+            </p>
+            <p>
+            <input type="text" name="lastName" placeholder="Last name" />
+            </p>
+            <p>
+            <input type="date" name="dateOfBirth" placeholder="Date of Birth" />
+            </p>
+            <p><input type="radio" name="gender" value ="M" checked />Male</p>
+            <p><input type="radio" name="gender" value ="F" />Female</p>
+            <select name="userCity" id="userCitySelect">
+            <option value = "1">Kiyv</option>
+            <option value = "2">Odesa</option>
+            </select>
+            <p>
+            <input type="text" name="address" placeholder="Address" />
+            </p>
+            <p>
+            <input type="button" value="Save" class="save_btn" name="save_btn" />
+            </p>
+        </form>
+    </div>
+    <script src="./JS/app.js"></script>
+    <script src="./js/formFunctions.js"></script>
+</body>
+</html>
